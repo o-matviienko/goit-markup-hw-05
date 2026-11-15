@@ -11,7 +11,7 @@
   visibility: hidden;
   pointer-events: none;
 
-  transition: 250ms ease-out;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity, visibility;
 }
 
@@ -66,7 +66,7 @@
 .modal-btn-icon {
   color: black;
 
-  transition: 250ms ease-out;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 }
 
@@ -118,7 +118,7 @@
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 
-  transition: 250ms ease-out;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color;
 }
 .modal-form-input:focus {
@@ -133,7 +133,7 @@
   color: #2e2f42;
   pointer-events: none;
 
-  transition: 250ms ease-out;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 }
 .modal-form-input:focus + .modal-form-icon {
@@ -151,7 +151,7 @@
 
   resize: none;
 
-  transition: 250ms ease-out;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color;
 
   font-size: 12px;
@@ -189,7 +189,7 @@
   border-radius: 2px;
   border: 0.88px solid rgba(46, 47, 66, 0.4);
 
-  transition: 250ms ease-out;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color, background-color;
 }
 
@@ -214,7 +214,7 @@
   > .modal-form-checkbox
   .modal-form-checkbox-icon {
   opacity: 1;
-  transition: 250ms ease-out;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity;
 }
 
@@ -230,7 +230,7 @@
 
   border: none;
 
-  transition: 250ms ease-out;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
   cursor: pointer;
   display: block;
