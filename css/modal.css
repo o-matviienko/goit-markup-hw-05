@@ -94,6 +94,9 @@
 .modal-form {
 }
 
+.modal-form-field {
+  margin-bottom: 8px;
+}
 .modal-form-label {
   display: block;
   margin-bottom: 4px;
@@ -182,6 +185,7 @@
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+
 .modal-form-checkbox {
   display: inline-flex;
   justify-content: center;
